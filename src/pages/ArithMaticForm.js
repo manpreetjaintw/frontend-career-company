@@ -87,7 +87,9 @@ const ArithMaticForm = () => {
               </Typography>
             )}
             {/* Display result if evaluation is successful */}
-            {expressionData?.result && <p>Result: {expressionData?.result}</p>}
+            {typeof expressionData.result === "number" && (
+              <p>Result: {expressionData?.result}</p>
+            )}
           </Item>
         </Grid>
       </Grid>

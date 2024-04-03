@@ -5,7 +5,7 @@ export const fetchExpressionResult = async (expression) => {
   // Configuration for the api calling
   const config = {
     method: "post",
-    url: "https://b7ff-116-75-198-222.ngrok-free.app/calc/",
+    url: "https://6dc4-27-5-40-168.ngrok-free.app/calc/",
     headers: {
       "Content-Type": "application/json",
     },
