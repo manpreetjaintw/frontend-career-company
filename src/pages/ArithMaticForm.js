@@ -65,7 +65,7 @@ const ArithMaticForm = () => {
             <h1>Arithmetic Expression Evaluator</h1>
             {/* Input field for entering arithmetic expression */}
             <input
-              type="text"
+              type="number"
               value={expression}
               onChange={(e) => setExpression(e.target.value)}
               placeholder="Enter arithmetic expression"
